@@ -1,0 +1,31 @@
+.weathercontainer{
+    width: 175px;
+    height: 175px;
+    border-radius: 100px;
+    border: 5px solid rgb(199, 72, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.label, .nextlabel{
+    color: rgb(199, 72, 46) !important;
+    font-weight: 600 !important;
+}
+.label{
+    font-size: 40px !important;
+
+}
+
+.nextlabel{
+    font-size: 18px !important;
+}
+
+.prevlabel{
+    font-size: 20px !important;
+    color: grey !important;
+    font-weight: 600 !important;
+}

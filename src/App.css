@@ -1,0 +1,32 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.appcontainer{
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+/* .autocomplete-dropdown-container{
+  
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  background: white;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+} */
+
+.input{
+  width: 600px;
+  height: 40px;
+  padding: 10px;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #d8d2d2;
+}
